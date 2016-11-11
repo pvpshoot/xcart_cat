@@ -1,0 +1,123 @@
+@import 'settings';
+@import 'foundation-emails';
+
+@import 'template/template';
+
+.top-header{
+  background-color: transparent!important;
+  p{
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    text-align: right;
+    color: #999999;
+  }
+}
+.social{
+  display: inline-block;
+  margin-right: 5px;
+}
+.hero-color{
+  background-color: #fef5df;
+}
+table.body .octopus-parent{
+  padding-bottom: 0!important;
+  padding-right: 0!important;
+  margin-bottom: 0 !important;
+  margin-right: 0 !important;
+  .octopus-wrapper{
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  img{
+    display: inline-block;
+  }
+}
+.hero {
+  padding: 40px 60px 20px 60px!important;
+
+  //background-image: url('/assets/img/bitmap.png');
+  //background-image: url('https://dl.dropboxusercontent.com/u/61995965/bitmap.png');
+  h1{
+    font-family: OpenSans;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    color: #4b4b4b;
+  }
+
+  p.lead{
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    color: #48474c;
+    max-width: 260px;
+  }
+
+}
+.img-wrapper{
+  text-align: right;
+  padding-top: 20px;
+  img{
+    display: inline-block;
+  }
+}
+h2{
+  font-family: OpenSans;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.22;
+  color: #111111;
+}
+p{
+  font-family: OpenSans;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.43;
+  color: #4b4d4f;
+}
+a{
+  color: #0ba2e8;
+}
+.pre-footer{
+  p{
+    padding-left: 44px;
+    padding-right: 44px;
+  }
+}
+
+.fotter-text{
+  font-family: OpenSans;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  text-align: center;
+  color: #999999;
+  a{
+    color: #999999;
+    text-decoration: underline;
+  }
+}
+.divider{
+
+  height: 1px;
+  width: 100%;
+  background: #e9eaed;
+}
+.padding-right{
+  padding-right: 44px;
+}
